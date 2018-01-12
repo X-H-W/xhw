@@ -1,0 +1,19 @@
+import pygame
+# 开始
+pygame.init()
+# display(窗口) 类
+# set_mode() 方法 初始化我们的显示窗口
+# update() 方法 刷新我们的屏幕
+screen = pygame.display.set_mode((700,800))
+# image.load
+# 第一步 加载图片
+bg = pygame.image.load('')
+# 第二步 绘制图片
+screen.blit(bg,(0,0))
+# 第三步 更新图片
+pygame.display.update()
+
+
+while True:
+    pass
+pygame.quit()
